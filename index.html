@@ -1,1 +1,27 @@
-test
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pride</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,-apple-system,sans-serif;background:#0d1117;color:#fff;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:2rem}
+.pride-bar{width:100%;max-width:700px;height:8px;border-radius:4px;overflow:hidden;display:flex;margin-bottom:2rem}
+.pride-bar div{flex:1}
+.pridered{background:#e40303}.prideredorange{background:#ff8c00}.prideyellow{background:#ffed00}
+.pridegreen{background:#008026}.prideblue{background:#24408e}.pridepurple{background:#732982}
+header{background:linear-gradient(135deg,#e40303,#ff8c00,#ffed00,#008026,#24408e,#732982);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;font-size:clamp(3rem,12vw,6rem);font-weight:800;letter-spacing:-.02em;margin-bottom:1.5rem}
+.message{max-width:500px;text-align:center;font-size:1.15rem;line-height:1.7;opacity:.9}
+.message strong{color:#ffed00}
+footer{margin-top:3rem;font-size:.85rem;opacity:.4}
+@media(max-width:480px){.message{font-size:1rem}.pride-bar{height:6px}}
+</style>
+</head>
+<body>
+<div class="pride-bar"><div class="pridered"></div><div class="prideredorange"></div><div class="prideyellow"></div><div class="pridegreen"></div><div class="prideblue"></div><div class="pridepurple"></div></div>
+<header>Pride</header>
+<p class="message">Love is love. <strong>Be proud, be visible, be you.</strong> This space celebrates the LGBTQ+ community and the ongoing fight for equality, dignity, and joy.</p>
+<footer>Pride is not just a month — it's every day.</footer>
+</body>
+</html>
